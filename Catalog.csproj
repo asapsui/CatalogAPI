@@ -1,0 +1,14 @@
+<!-- tasks to build ASP.NET Core Apps-->
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+  <!-- this is the set of APIs available to our app-->
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+  <!-- dependencies-->
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+  </ItemGroup>
+
+</Project>
